@@ -1,7 +1,5 @@
 ## Server Performance Stats
 
-[https://roadmap.sh/projects/server-stats](https://roadmap.sh/projects/server-stats)
-
 # Usage
 
 Make the script executable
@@ -11,3 +9,5 @@ Run
 ```
 ./srv-perf.sh
 ```
+
+This project is part of [roadmap.sh](https://roadmap.sh/projects/server-stats) DevOps projects.
