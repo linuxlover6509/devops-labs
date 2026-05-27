@@ -5,9 +5,9 @@ https://roadmap.sh/projects/server-stats
 # Usage
 
 Make the script executable
-   `chmod +x srv-perf.sh`
+   `chmod +x ./srv-perf.sh`
 
 Run
 ```
-./hardwareTemp.sh
+./srv-perf.sh
 ```
