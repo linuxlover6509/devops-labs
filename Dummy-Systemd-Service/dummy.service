@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/opt/myscript/run.sh
+ExecStart=/opt/scripts/run.sh
 Restart=on-failure
 User=root
 WorkingDirectory=/opt/scripts
