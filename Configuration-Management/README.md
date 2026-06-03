@@ -22,3 +22,4 @@ ansible-playbook -i inventory.ini site.yaml -K
 
 After deployment, the website will be available through Nginx on the target server.
 
+This project is part of [roadmap.sh](https://roadmap.sh/projects/configuration-management) DevOps projects.
