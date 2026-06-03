@@ -1,0 +1,25 @@
+---
+- name: Deploy static website
+  hosts: web
+  become: true
+
+  vars:
+    website_dir: /home/debian/git/devops-labs/GitHub-Pages-Deployment
+
+  tasks:
+    - name: Install nginx
+      ansible.builtin.apt:
+        name: nginx
+        state: present
+        update_cache: true
+
+    - name: Ensure nginx is running
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: true
+
+    - name: Deploy website
+      ansible.builtin.copy:
+        src: "{{ website_dir }}/"
+        dest: /var/www/html/
