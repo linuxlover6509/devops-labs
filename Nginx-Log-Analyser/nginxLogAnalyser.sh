@@ -2,9 +2,7 @@
 
 LOGFILE=$1
 
-
 [[ $LOGFILE ]] || { echo "No file or no argument.";exit 1; }
-
 
 
 echo "Top 5 IP addresses with the most requests:"
