@@ -21,6 +21,6 @@
 19. Prometheus and Grafana
 20. Multi-Service Application
 21. Service Discovery
-22. [Linux Server Setup](https://roadmap.sh/projects/linux-server-setup)
+22. [Linux Server Setup](https://roadmap.sh/projects/linux-server-setup) ✅
 
 All projects can be found on [roadmap.sh](https://roadmap.sh/devops/projects)
